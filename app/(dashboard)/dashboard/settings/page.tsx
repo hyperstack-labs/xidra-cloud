@@ -47,7 +47,7 @@ export default function SettingsPage() {
                 <input
                   id="fullName"
                   type="text"
-                  defaultValue="Ahmad Khalid"
+                  defaultValue="John Doe"
                   className="rounded-lg border border-border bg-secondary px-4 py-2.5 text-sm text-foreground focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
                 />
               </div>
@@ -58,7 +58,7 @@ export default function SettingsPage() {
                 <input
                   id="email"
                   type="email"
-                  defaultValue="admin@xidracloud.com"
+                  defaultValue="john.doe@xidracloud.com"
                   className="rounded-lg border border-border bg-secondary px-4 py-2.5 text-sm text-foreground focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
                 />
               </div>
@@ -149,15 +149,13 @@ export default function SettingsPage() {
                   </p>
                 </div>
                 <button
-                  className={`relative h-6 w-11 rounded-full transition-colors ${
-                    pref.enabled ? "bg-primary" : "bg-muted"
-                  }`}
+                  className={`relative h-6 w-11 rounded-full transition-colors ${pref.enabled ? "bg-primary" : "bg-muted"
+                    }`}
                   aria-label={`Toggle ${pref.label}`}
                 >
                   <span
-                    className={`absolute top-0.5 left-0.5 h-5 w-5 rounded-full bg-primary-foreground transition-transform ${
-                      pref.enabled ? "translate-x-5" : ""
-                    }`}
+                    className={`absolute top-0.5 left-0.5 h-5 w-5 rounded-full bg-primary-foreground transition-transform ${pref.enabled ? "translate-x-5" : ""
+                      }`}
                   />
                 </button>
               </div>

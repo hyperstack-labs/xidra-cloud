@@ -100,14 +100,14 @@ export function DashboardSidebar() {
         <SidebarSeparator className="mb-4" />
         <div className="flex items-center gap-3 rounded-lg bg-sidebar-accent p-3 overflow-hidden">
           <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-sidebar-primary/20 font-display text-xs font-bold text-sidebar-primary">
-            AK
+            JD
           </div>
           <div className="flex flex-col overflow-hidden group-data-[collapsible=icon]:hidden">
             <span className="truncate text-sm font-medium text-sidebar-foreground">
-              Ahmad Khalid
+              John Doe
             </span>
             <span className="truncate text-xs text-sidebar-foreground/60">
-              admin@xidracloud.com
+              john.doe@xidracloud.com
             </span>
           </div>
         </div>

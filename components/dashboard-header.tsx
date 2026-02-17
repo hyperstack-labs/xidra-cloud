@@ -47,7 +47,7 @@ export function DashboardHeader() {
           <span className="sr-only">Notifications</span>
         </Button>
         <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary/20 font-display text-xs font-bold text-primary">
-          AK
+          JD
         </div>
       </div>
     </header>
