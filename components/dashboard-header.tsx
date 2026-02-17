@@ -21,7 +21,7 @@ export function DashboardHeader() {
   return (
     <header className="flex h-16 items-center justify-between border-b border-border bg-background px-4 md:px-6">
       <div className="flex items-center gap-4">
-        <SidebarTrigger className="text-muted-foreground hover:text-foreground" />
+        <SidebarTrigger className="md:hidden" />
         <div className="hidden items-center gap-2 text-sm md:flex">
           <span className="text-muted-foreground">Dashboard</span>
           <span className="text-muted-foreground">/</span>
